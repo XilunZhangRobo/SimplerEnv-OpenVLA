@@ -86,12 +86,13 @@ conda activate simpler_env
 
 Clone this repo:
 ```
-git clone https://github.com/simpler-env/SimplerEnv --recurse-submodules
+git clone git@github.com:XilunZhangRobo/SimplerEnv-OpenVLA.git --recurse-submodules
 ```
 
 Install numpy<2.0 (otherwise errors in IK might occur in pinocchio):
 ```
 pip install numpy==1.24.4
+pip install pandas
 ```
 
 Install ManiSkill2 real-to-sim environments and their dependencies:
